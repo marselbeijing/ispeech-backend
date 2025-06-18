@@ -1,0 +1,6 @@
+Python interpreter: /Library/Developer/CommandLineTools/usr/bin/python3
+Python version: 3.8.9
+FastAPI version: 0.68.0
+
+Use system Python at /Library/Developer/CommandLineTools/usr/bin/python3 for all operations.
+Do not use pyenv Python versions. 
