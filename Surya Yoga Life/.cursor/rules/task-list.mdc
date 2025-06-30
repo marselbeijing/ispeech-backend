@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+## ✅ Completed Tasks
+
+- [x] TipTap implementation for rich text editing
+- [x] Created basic Knowledge database model
+- [x] Implemented CRUD operations for knowledge entries
+- [x] Built UI components for knowledge management
+- [x] Implemented knowledge extraction for email drafting
+- [x] Integrated knowledge-based drafting in reply generation flow
+
+---
+
+## 🔄 In Progress Tasks
+
+### 🧩 Phase 1: Smart Drafting with Knowledge Base
+- [ ] Attach knowledge base context when drafting replies
+- [ ] Set up fallback mechanism if knowledge entries are missing 
+- [] Add logging for reply generation using knowledge entries
+
+### 🧠 Phase 2: Dual LLM Architecture
+- [ ] Integrate a cheaper LLM (e.g., Gemini Flash) for knowledge extraction
+- [x] Extract relevant data from knowledge base with extraction LLM
+- [ ] Configure environment variables to switch between LLMs based on task
+- [ ] Keep existing core model (e.g., GPT-4) for final response generation
+- [ ] Benchmark latency and cost of dual model flow
+
+### 💬 Phase 3: Contextual Memory Enhancements
+- [ ] Extract relevant data from previous conversations
+- [ ] Link prior threads to current conversation context
+- [ ] Store long-term memory entries in the knowledge base
+- [ ] Add confidence score for each extracted memory chunk
+
+---
+
+## 🧪 Ideas for Future Tasks
+
+- [ ] Add semantic search over knowledge base
+- [ ] Auto-summarize newly added knowledge entries
+- [ ] Build an admin panel to review/edit extracted knowledge
+- [ ] Implement user-level memory scoping
+- [ ] Visualize knowledge connections (graph-based UI)
+
+---
+
+## 🧠 Cursor Rules
+
+> When interacting with this file:
+>
+> 1. **Always update completed tasks** with '[x]' when done.
+> 2. **Prompt user approval** before starting the next phase.
+> 3. **Log any relevant files changed** next to the task (in a comment
+or sub-bullet).
+> 4. **Do not auto-complete future tasks** until explicitly requested.
