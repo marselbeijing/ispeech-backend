@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "./venv/bin/python",
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.extraPaths": ["./venv/lib/python3.8/site-packages"],
+    "python.analysis.stubPath": "./venv/lib/python3.8/site-packages",
+    "python.languageServer": "Pylance",
+    "python.analysis.useLibraryCodeForTypes": true
+} 
